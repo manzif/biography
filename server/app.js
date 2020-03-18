@@ -5,7 +5,6 @@ import logger from 'morgan';
 import bodyParser from 'body-parser';
 import routes from './routes';
 
-const hostname = '127.0.0.1';
 const app = express()
 app.use(cors());
 app.use(logger('dev'));
